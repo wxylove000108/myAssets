@@ -1,0 +1,35 @@
+/* 默认light主题 */
+
+:root[theme='light'] {
+    --bg-color: #fff;
+    --text-color: #222;
+    --button-color: #fff;
+    --button-border-color: #ebedf0;
+    --audio-back: #F3F6F9;
+    --audio-box: white;
+    --audio-shadow: #ccc;
+    --border-color: #F8F8F8;
+    --theme-item-color: #F5F5F5;
+    --all-btn: #135488
+}
+
+
+/* dark主题 */
+
+:root[theme='dark'] {
+    --bg-color: #191919;
+    --text-color: #909090;
+    --button-color: #373737;
+    --button-border-color: #373737;
+    --audio-back: #303030;
+    --audio-box: #333;
+    --audio-shadow: #222;
+    --border-color: #2F2F2F;
+    --theme-item-color: #222222;
+    --all-btn: #909090
+}
+
+:root {
+    --title-font: 20px;
+    --content-font: 14px;
+}
